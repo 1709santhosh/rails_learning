@@ -1,6 +1,6 @@
 # Ruby on Rails Tutorial
 
-## Toy App
+## Sample App
 
-This is the second application for the
+This is the third application for the
 [*Ruby on Rails Tutorial*](http://www.railstutorial.org/)
