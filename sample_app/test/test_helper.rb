@@ -22,7 +22,7 @@ end
 
 class ActionDispatch::IntegrationTest
 
-  # 登入指定的用户
+  # 登入指定的用户（集成测试中不能使用session方法）
   def log_in_as(user, password: 'password', remember_me: '1')
     post login_path, params: { session: { email: user.email,
                                           password: password,
